@@ -1,11 +1,56 @@
+body
+{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    font-size: medium;
+    font-family: Impact;
+    color: white;
+}
+
 .separateur
 {
     border: 1px solid black;
     height: 2px;
 }
 
-p
+main
 {
-    font-size: 18px;
+    display: inline-block;
+    border: 5px solid black;
+}
+aside
+{
+    border: 3px solid green;
+    display: inline-block;
 }
 
+#infoSkills
+{
+    border: 3px solid red;
+    display: block;
+}
+
+#datesExpPro
+{
+    border: 3px solid blue;
+    display: block;
+}
+
+#datesFormations
+{
+    border: 3px solid black;
+    display: block;
+}
+
+article
+{
+    border: 3px solid yellow;
+    display: inline-block;
+    width: 50%;
+}
+
+h2
+{
+    text-align: center;
+    text-decoration: underline;
+}
