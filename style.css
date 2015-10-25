@@ -1,4 +1,11 @@
+.separateur
+{
+    border: 1px solid black;
+    height: 2px;
+}
+
 p
 {
     font-size: 18px;
 }
+
