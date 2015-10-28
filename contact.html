@@ -9,8 +9,46 @@
   </head>
 
   <body>
-    <h1>N'hésitez pas à me contacter !</h1>
-    <p>Contactez-moi en remplissant les formulaires suivants</p>
+    <header>
+      <h1>N'hésitez pas à me contacter !</h1>
+      <p>Contactez-moi en remplissant les formulaires suivants :</p>
+    </header>
+
+    <section>
+      <h2>Formulaire de contact</h2>
+      <form method="post" action="traitement.php" >
+
+
+	<p><label for="nom">Nom :</label>
+	  <input type="text" name="nom" id="nom" placeholder="Votre nom"/></p>
+
+
+
+	<p><label for="prenom">Prénom :</label>
+	  <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" /></p>
+
+
+	<p><label for="adresse">Adresse :</label>
+	  <input type="text" name="adresse" id="adresse" placeholder="42 avenue de la croisée des chemins, 11100, carcassonne" /></p>
+
+
+
+	<p><label for="telephone">Téléphone :</label>
+	  <input type="text" name="telephone" id="telephone" placeholder="06..." /></p>
+
+
+
+	<p><label for="email">Email :</label>
+	  <input type="text" name="email" id="email" placeholder="exemple@exemple.com" /></p>
+
+
+
+	<p><label for="yourmsg">Message :</label>
+	  <input type="text" name="yourmsg" id="yourmsg" /></p>
+
+	<input type="submit" value="Envoyer" />
+      </form>
+    </section>
     
   </body>
   
