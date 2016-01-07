@@ -105,3 +105,37 @@ table
 {
   border-collapse: collapse;
 }
+
+input
+{
+  position: absolute;
+  left: 125px;
+  width: 350px;
+}
+
+#adresse
+{
+  width: 450px;
+}
+
+textarea
+{
+  vertical-align: middle;
+  margin-left: 33px;
+  height: 150px;
+  width: 450px;
+}
+
+#sendButton
+{
+  position: static;
+  width: 80px;
+  margin-left: 118px;
+}
+
+#resetButton
+{
+  position: static;
+  width: 80px;
+  margin-left: 15px;
+}
