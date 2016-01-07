@@ -23,6 +23,11 @@ nav a
   text-decoration: none;
 }
 
+@media screen and (max-width=1036)
+{
+
+}
+
 .navbutton
 {
   display: inline-block;
@@ -32,11 +37,12 @@ nav a
   width: 150px;
   margin-left: 20px;
   margin-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: black;
   color: gold;
   text-align: center;
 }
-
 
 nav a:visited
 {
@@ -104,6 +110,11 @@ tr:hover
 table
 {
   border-collapse: collapse;
+}
+
+.sep_tab
+{
+
 }
 
 input

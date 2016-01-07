@@ -11,7 +11,7 @@
   <body>
     <header>
       <h1>N'hésitez pas à me contacter !</h1>
-      <p>Ce formulaire sert de démonstration. Il n'est pas fonctionnel.</p>
+      <p>Contactez-moi en remplissant les formulaires suivants :</p>
     </header>
 
     <section>
@@ -20,33 +20,26 @@
 
 
 	<p><label for="nom">Nom :</label>
-	  <input type="text" name="nom" id="nom" placeholder="Votre nom"/></p>
-
-
+	  <input type="text" name="nom" id="nom" placeholder="Votre nom" autofocus required/></p>
 
 	<p><label for="prenom">Prénom :</label>
-	  <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" /></p>
+	  <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required /></p>
 
+	<p><label for="telephone">Téléphone :</label>
+	  <input type="tel" name="telephone" id="telephone" placeholder="06..."  /></p>
+
+	<p><label for="email">Email :</label>
+	  <input type="email" name="email" id="email" placeholder="exemple@exemple.com" required /></p>
 
 	<p><label for="adresse">Adresse :</label>
 	  <input type="text" name="adresse" id="adresse" placeholder="42 avenue de la croisée des chemins, 11100, carcassonne" /></p>
 
+	<p><label for="message">Message :</label>
+	  <textarea name="message" id="message" placeholder="Et si vous me laissiez un petit message ?"required></textarea></p>
 
+	<input type="submit" value="Envoyer" id="sendButton"/>
+	<input type="reset" value="Effacer" id="resetButton"/>
 
-	<p><label for="telephone">Téléphone :</label>
-	  <input type="text" name="telephone" id="telephone" placeholder="06..." /></p>
-
-
-
-	<p><label for="email">Email :</label>
-	  <input type="text" name="email" id="email" placeholder="exemple@exemple.com" /></p>
-
-
-
-	<p><label for="yourmsg">Message :</label>
-	  <input type="text" name="yourmsg" id="yourmsg" /></p>
-
-	<input type="submit" value="Envoyer" />
       </form>
     </section>
 
